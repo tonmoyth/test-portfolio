@@ -1,0 +1,69 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    color: #fff;
+}
+.main-contain{
+    background-color: #2c3e50;
+}
+.header{
+    display: flex;
+    position: relative;
+}
+.header h2{
+    width: 40%;
+   margin-left: 100px;
+   margin-top: 20px;
+}
+.header ul{
+    width: 60%;
+    list-style: none;
+}
+.header li{
+    float: left;
+    padding: 20px 30px;
+}
+.header li a{
+    text-decoration: none;
+}
+.header li a:hover{
+    text-decoration: underline;
+}
+
+
+/* cointain area */
+
+.s-coin{
+    height: 100vh;
+    display: flex;
+    position: relative;
+}
+.img-area{
+    width: 45%;
+    position: relative;
+}
+.img-area img{
+    width: 80%;
+    height: 70vh;
+    margin-left: 40px;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    border-radius: 100%;
+}
+.s-coin .contain{
+    position: absolute;
+    right: 120px;
+    top: 50px;
+}
+
+.s-coin .contain h3,h1,p,i,a{
+    margin-bottom: 15px;
+}
+.social i{
+    margin: 4px;
+}
+.span{
+    color: yellow;
+    font-size: 23px;
+}
